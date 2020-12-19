@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TODOLIST</title>
+  <link rel="shortcut icon" href="pics/favicon.png" type="image/jpeg">
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+   
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+</head>
+
+  
+<div class="container-fluid bg">
+  <div class="row">
+      <div class="col-md-4 col-sm-4 col-xs-12"></div>
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <form onsubmit="return login()" action="main.html" class="form-container">
+         <h1 class="h1"> Login Form</h1>
+
+           <div class="form-group">
+             <label for="username">Username</label>
+           <input type="text" required class="form-control" id="username"  placeholder="Enter Username">
+           
+             </div>
+            
+             <div class="form-group">
+               <label for="exampleInputPassword1">Create Password</label>
+               <input type="password" class="form-control" id="pws" placeholder="Enter Password" title="Must contain atleast one number,one uppercase,one lowercase letter,and a special character" required type="text" />
+               <span id="strength">Type Password</span>
+             </div>
+
+           <div class="form-group form-check">
+             <input type="checkbox" class="form-check-input" id="exampleCheck1">
+             <label class="form-check-label" for="exampleCheck1">Remember  me</label>
+           </div>
+        
+           <button type="submit"  class="btn btn-info btn-block">Submit</button>
+
+               
+         </form>
+
+
+</div>
+</div class="col-md-4 col-sm-4 col-xs-12">
+</div>
+<body background="images/img3.jpg"></body>
+
+<script src="login1.js"></script>
+</body>
+</html>
